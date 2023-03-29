@@ -1,0 +1,5 @@
+﻿  KL.1.main.cpp
+D:\projects\KL.1.25\KL.1.main.cpp(14,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  fraction.cpp
+  Создание кода...
+  KL.1.25.vcxproj -> D:\projects\KL.1.25\x64\Debug\KL.1.25.exe
