@@ -66,7 +66,7 @@ void main()
 	int x, y;
 	cout << "First >>"; cin >> x;
 	cout << "Second >>"; cin >> y;
-	// Формирование переменной(Т) с помощью функции make_fraction
+	// Формирование переменной (Т) с помощью функции make_fraction
 	fraction T = make_fraction(x, y);
 	cout <<"Time T = " << T.Minutes();
 }
