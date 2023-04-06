@@ -133,6 +133,9 @@
     <ClCompile Include="KL3.25.cpp" />
     <ClCompile Include="Time.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="KL3Diagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

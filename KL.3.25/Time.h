@@ -14,8 +14,6 @@ public:
 	void set_sec(int s) { sec = s; }
 	// перегруженные операции
 	Time& operator=(const Time&);
-	Time& operator++();
-	Time operator++(int); // постфиксная операция
 	Time operator-(const Time&);
 	// глобальные функции вводв а и вывода
 	friend istream& operator >>(istream& in, Time& t);

@@ -10,25 +10,6 @@ Time& Time::operator=(const Time&t)
 	sec = t.sec;
 	return *this;
 }
-// перегрузка префиксной операции инкремент
-Time& Time::operator++()
-{
-	int temp = min * 60 + sec;
-	temp++;
-	min = temp / 60;
-	sec = temp % 60;
-	return *this;
-}
-// перегрузка постфиксной операции 
-Time Time::operator++(int)
-{
-	int temp = min * 60 + sec;
-	temp++;
-	Time t(min, sec);
-	min = temp / 60;
-	sec = temp % 60;
-	return t;
-}
 // перегрузка бинарной функции сложения
 Time Time::operator-(const Time&t)
 {
