@@ -1,3 +1,0 @@
-﻿  ConsoleApplication1.cpp
-D:\projects\ConsoleApplication1\ConsoleApplication1.cpp(8,17): warning C4101: v: неиспользованная локальная переменная
-  ConsoleApplication1.vcxproj -> D:\projects\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

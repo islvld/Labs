@@ -1,8 +1,0 @@
-﻿  KL5.25.cpp
-D:\projects\KL.5.25\KL5.25.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  Money.cpp
-  Object.cpp
-  Pair.cpp
-  Vector.cpp
-  Создание кода...
-  KL.5.25.vcxproj -> D:\projects\KL.5.25\x64\Debug\KL.5.25.exe

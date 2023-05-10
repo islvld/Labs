@@ -1,3 +1,0 @@
-﻿  KL3.25.cpp
-D:\projects\KL.3.25\KL3.25.cpp(23,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  KL.3.25.vcxproj -> D:\projects\KL.3.25\x64\Debug\KL.3.25.exe

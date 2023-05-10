@@ -1,4 +1,0 @@
-﻿  ConsoleApplication3.cpp
-D:\projects\ConsoleApplication3\ConsoleApplication3.cpp(8,11): error C2131: выражение не определяется константой
-D:\projects\ConsoleApplication3\ConsoleApplication3.cpp(8,11): message : сбой вызван чтением переменной вне срока ее существования
-D:\projects\ConsoleApplication3\ConsoleApplication3.cpp(8,11): message : см. использование "n"

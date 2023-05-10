@@ -1,5 +1,0 @@
-﻿  Hash.25.cpp
-D:\projects\Hash.25\Hash.25.cpp(168,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\projects\Hash.25\Hash.25.cpp(172,25): warning C4552: "<": результат выражения не используется
-D:\projects\Hash.25\Hash.25.cpp(177,25): warning C4552: "<": результат выражения не используется
-  Hash.25.vcxproj -> D:\projects\Hash.25\x64\Debug\Hash.25.exe

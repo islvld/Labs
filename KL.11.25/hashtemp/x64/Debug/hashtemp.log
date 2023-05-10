@@ -1,3 +1,0 @@
-﻿  hashtemp.cpp
-D:\projects\hashtemp\hashtemp.cpp(90,51): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-  hashtemp.vcxproj -> D:\projects\hashtemp\x64\Debug\hashtemp.exe
