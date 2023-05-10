@@ -1,0 +1,3 @@
+﻿  KL.11.4.cpp
+D:\projects\KL.11.4\KL.11.4.cpp(41,91): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  KL.11.4.vcxproj -> D:\projects\KL.11.4\x64\Debug\KL.11.4.exe
