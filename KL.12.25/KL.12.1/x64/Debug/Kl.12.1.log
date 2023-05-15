@@ -1,0 +1,5 @@
+﻿  Kl.12.1.cpp
+D:\projects\Kl.12.1\Kl.12.1.cpp(39,21): warning C4305: аргумент: усечение из "double" в "float"
+D:\projects\Kl.12.1\Kl.12.1.cpp(40,21): warning C4305: аргумент: усечение из "double" в "float"
+D:\projects\Kl.12.1\Kl.12.1.cpp(41,21): warning C4305: аргумент: усечение из "double" в "float"
+  Kl.12.1.vcxproj -> D:\projects\Kl.12.1\x64\Debug\Kl.12.1.exe

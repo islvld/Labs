@@ -1,44 +1,86 @@
 ﻿#include <iostream>
 #include <set>
+#include <vector>
 
 using namespace std;
 
-// В этом коде функция insertAt() принимает ассоциативный контейнер типа set<int>, ключ элемента,
-//который нужно добавить, и позицию, на которую нужно добавить элемент.
+set<float> mySet;
 
-void insertAt(set<int>& mySet, int key, int pos) {
-    // Ищем элемент с заданным ключом
-    auto it = mySet.find(key);
-
-    // Если элемент найден
-    if (it != mySet.end()) {
-        // Удаляем его из исходной позиции
-        mySet.erase(it);
-
-        // Вставляем его на заданную позицию
-        auto newIt = mySet.begin();
-        std::advance(newIt, pos);
-        mySet.insert(newIt, key);
+// Функция добавления элемента в заданную позицию
+void addElement(float element, int position) {
+    auto it = mySet.begin();
+    for (int i = 0; i < position; i++) {
+        it++;
     }
+    mySet.insert(it, element);
+}
+
+// Функция нахождения среднего арифметического
+float findAverage() {
+    float sum = 0;
+    for (auto it = mySet.begin(); it != mySet.end(); it++) {
+        sum += *it;
+    }
+    return sum / mySet.size();
+}
+
+// Функция домножения каждого элемента на максимальный элемент контейнера
+vector<float> multiplyElementsByMax() {
+    float maxElement = *mySet.rbegin();
+    vector<float> result;
+    for (auto it = mySet.begin(); it != mySet.end(); it++) {
+        result.push_back(*it * maxElement);
+    }
+    return result;
 }
 
 int main() {
-    set<int> mySet = { 1, 2, 3, 4, 5 };
+    // Добавление элементов в контейнер
+    mySet.insert(1.2);
+    mySet.insert(2.3);
+    mySet.insert(3.4);
+    mySet.insert(4.5);
 
-    // Выводим исходное состояние контейнера
-    cout << "Before insert:" << endl;
-    for (const auto& elem : mySet) {
-        cout << elem << " ";
+    // Вывод элементов контейнера до изменений
+    for (auto it = mySet.begin(); it != mySet.end(); it++) {
+        cout << *it << " ";
     }
     cout << endl;
 
-    // Добавляем элемент с ключом 3 на позицию 2
-    insertAt(mySet, 3, 2);
+    // Добавление минимального элемента в заданную позицию
+    float minElement = *mySet.begin();
+    addElement(minElement, 2);
 
-    // Выводим новое состояние контейнера
-    cout << "After insert:" << endl;
-    for (const auto& elem : mySet) {
-        cout << elem << " ";
+    // Вывод элементов контейнера после добавления минимального элемента
+    for (auto it = mySet.begin(); it != mySet.end(); it++) {
+        cout << *it << " ";
+    }
+    cout << endl;
+
+    // Удаление элементов, больших среднего арифметического
+    float average = findAverage();
+    auto it = mySet.begin();
+    while (it != mySet.end()) {
+        if (*it > average) {
+            it = mySet.erase(it);
+        }
+        else {
+            it++;
+        }
+    }
+
+    // Вывод элементов контейнера после удаления элементов, больших среднего арифметического
+    for (auto it = mySet.begin(); it != mySet.end(); it++) {
+        cout << *it << " ";
+    }
+    cout << endl;
+
+    // Домножение каждого элемента на максимальный элемент контейнера
+    vector<float> newSet = multiplyElementsByMax();
+
+    // Вывод элементов нового контейнера после домножения каждого элемента на максимальный элемент контейнера
+    for (auto it = newSet.begin(); it != newSet.end(); it++) {
+        cout << *it << " ";
     }
     cout << endl;
 
