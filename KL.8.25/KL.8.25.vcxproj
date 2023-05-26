@@ -129,6 +129,12 @@
   <ItemGroup>
     <ClCompile Include="KL.8.25.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

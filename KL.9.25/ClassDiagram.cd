@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="error">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>error.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vector">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAIAIAABAAAEAAAAAAEAgAAAAAAA=</HashCode>
+      <FileName>vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

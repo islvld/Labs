@@ -1,6 +1,1 @@
-﻿  KL6.cpp
-D:\projects\KL.6.25\KL6.cpp(12,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-  Vector.cpp
-  Создание кода...
-D:\projects\KL.6.25\Vector.cpp(46): warning C4715: Vector::operator[]: значение возвращается не при всех путях выполнения
-  KL.6.25.vcxproj -> D:\projects\KL.6.25\x64\Debug\KL.6.25.exe
+﻿  KL.6.25.vcxproj -> D:\ReposGIT\Labs\KL.6.25\x64\Debug\KL.6.25.exe

@@ -1,1 +1,2 @@
 D:\projects\Laba11.List.1\x64\Debug\Laba11.List.1.exe
+D:\ReposGIT\Labs\Laba11.List.1\x64\Debug\Laba11.List.1.exe

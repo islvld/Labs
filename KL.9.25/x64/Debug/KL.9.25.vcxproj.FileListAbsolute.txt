@@ -1,1 +1,2 @@
 D:\projects\KL.9.25\x64\Debug\KL.9.25.exe
+D:\ReposGIT\Labs\KL.9.25\x64\Debug\KL.9.25.exe

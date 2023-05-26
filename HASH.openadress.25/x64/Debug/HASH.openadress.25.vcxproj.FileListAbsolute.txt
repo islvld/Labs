@@ -1,1 +1,2 @@
 D:\projects\HASH.openadress.25\x64\Debug\HASH.openadress.25.exe
+D:\ReposGIT\Labs\HASH.openadress.25\x64\Debug\HASH.openadress.25.exe
